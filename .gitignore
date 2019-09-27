@@ -4,6 +4,7 @@ data
 watch.pid
 yarn.lock
 yarn-error.log
+watch.log
 node_modules
 
 # Cruft

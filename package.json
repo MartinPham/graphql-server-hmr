@@ -3,7 +3,7 @@
     "dev:build": "NODE_ENV=development webpack --config webpack/development/config.js",
     "dev:watch": "NODE_ENV=development webpack --config webpack/development/config.js --watch",
 
-    "start": "yarn dev:build && nohup yarn dev:watch > server.log & echo $! > watch.pid & node build && kill -9 `cat watch.pid` && rm watch.pid"
+    "start": "yarn dev:build && nohup yarn dev:watch > watch.log & echo $! > watch.pid & node build && kill -9 `cat watch.pid` && rm watch.pid"
   },
   "dependencies": {
     "apollo-server": "^2.8.1",
