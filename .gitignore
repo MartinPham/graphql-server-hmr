@@ -1,0 +1,12 @@
+# Don't check auto-generated stuff into git
+build
+data
+watch.pid
+yarn.lock
+yarn-error.log
+node_modules
+
+# Cruft
+.DS_Store
+.idea
+.vscode
